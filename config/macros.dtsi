@@ -2,7 +2,7 @@ macro_e_grave: macro_e_grave{
 compatible = "zmk,behavior-macro";
 label = "macro_e_grave";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LS(U)>, <&kp NUMBER_0>, <&kp NUMBER_0>, <&kp E>, <&kp NUMBER_9>, <&kp ENTER>;
+bindings = <&kp LSHIFT &kp C_LCTRL &kp U>, <&kp 0>, <&kp 0>, <&kp E>, <&kp 9>, <&kp SPACE>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
